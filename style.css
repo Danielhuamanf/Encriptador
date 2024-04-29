@@ -1,0 +1,109 @@
+.cuerpo{
+   background-color: #F3F5FC; 
+  
+}
+.logo{
+    padding: 20px 0 0 40px;
+    width: 120px;
+ 
+}
+
+.campo-encriptador{
+    padding: 150px 0 0 150px;
+    width: 50%; /* Cada sección de la izquierda ocupará el 50% del ancho */
+    float: left;
+    
+}
+.ingreseTexto{
+    margin: 0 0 3em;
+    inline-size: auto;
+}
+.ingreseTexto textarea{
+    background-color: #F3F5FC;
+    border: none;
+    outline: none;
+    font-size: 30px;
+    color: #0A3871;
+    width: 630px;
+    height: 350px;
+    font-family: cursive;
+}
+.botones{
+    margin: 0 0 2em;
+}
+
+.campo-caja{
+    float: left;
+    width: 33%; /* La sección de la derecha ocupará un tercio del ancho */
+       
+}
+
+.buttonEncriptar {
+    background-color: #0A3871; /* Color de fondo */
+    color: white; /* Color del texto */
+    font-size: 16px; /* Tamaño de la fuente */
+ 
+    border-color: #0A3871;
+    padding: 20px 70px; /* Espaciado interno */
+    cursor: pointer; /* Cambia el cursor al pasar el ratón */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+/* Estilos para el botón de desencriptar */
+.buttonDesencriptar {
+    background-color: #D8DFE8; /* Color de fondo */
+    color: #0A3871; /* Color del texto */
+    font-size: 16px; /* Tamaño de la fuente */
+    
+    border-color: #0A3871; /* Sin borde */
+    padding: 20px 60px; /* Espaciado interno */
+    cursor: pointer; /* Cambia el cursor al pasar el ratón */
+    border-radius: 5px; /* Bordes redondeados */
+}
+.caja{
+    text-align: center;
+    border-radius: 3.2rem;
+    border: 0.2rem;
+    background:white;
+    height: 600px;
+    padding: 20px;
+    width: 400px;
+}
+.contenidoCaja{
+    padding: 10px;
+    height: 400px;
+    width: 400px;
+    margin: 5em 0 3em 0;
+}
+#idprimera{
+    font-weight: bolder;
+}
+.primera{
+    margin: 2em 0 0 0;
+    font-style: initial;
+    
+}
+#mensaje{
+    font-family: cursive;
+    font-size: 20px;
+}
+.buttonCopiar{
+    background-color: white; /* Color de fondo */
+    color: black; /* Color del texto */
+    font-size: 16px; /* Tamaño de la fuente */
+    border-color: #252525;
+    padding: 10px 50px; /* Espaciado interno */
+    cursor: pointer; /* Cambia el cursor al pasar el ratón */
+    border-radius: 5px; 
+}
+.buttonEncriptar,.buttonDesencriptar{
+    margin: 1em 1em 0 0;
+}
+.rodapie{
+
+    clear: both;
+}
+
+    
+  
+   
